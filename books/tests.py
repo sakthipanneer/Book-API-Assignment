@@ -3,21 +3,10 @@ from books.models import Book
 from books.views import ExternalBookView
 from rest_framework.test import APIRequestFactory
 
-# Create your tests here.
-
-book_data = {
-    "name": "Book 2",
-    "isbn": "123-1212-2122",
-    "authors": ["User1", "User2"],
-    "number_of_pages": 350,
-    "publisher": "XYZ Publishers",
-    "country": "Europe",
-    "release_date": "2018-06-01"
-
-}
 
 factory = APIRequestFactory()
 
+# Create your tests here.
 class BookModelTest(TestCase):
     """ Test module for Books model """
 
