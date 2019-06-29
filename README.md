@@ -64,7 +64,13 @@
     ```
     pip install -r requirements.txt
     ```
-
+- Create a postgres database with following details
+    ```
+    DB name: books,
+    User: postgres,
+    Password: root
+    ```
+    If you have any doubt in creating a user and DB refer this [link](https://medium.com/coding-blocks/creating-user-database-and-adding-access-on-postgresql-8bfcd2f4a91e)
 - Run the Django apps by
     ```
     python manage.py runserver 8000(Port whatever you want)
