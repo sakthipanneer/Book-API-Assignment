@@ -86,6 +86,12 @@
 
     $ python manage.py migrate
     ```
+- Run test case by,
+    ```
+    $ python manage.py test
+    ```
+
+
 
 ## API Requirements urls
 
