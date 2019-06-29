@@ -84,13 +84,18 @@
 ## API Requirements urls
 
 ### Requirements 1
-    [Link 1](http://localhost:8000/api/external-books/?name=Book)
+[Link 1](http://localhost:8000/api/external-books/?name=Book)
 
 ### Requirements 2
-    [Create](http://localhost:8000/api/v1/books/)
-    [Read](http://localhost:8000/api/v1/books/)
-    [Read with filter](http://localhost:8000/api/v1/books?name=Book1)
-    [Retrieve](http://localhost:8000/api/v1/books/:id)
-    [Patch](http://localhost:8000/api/v1/books/:id)
-    [Delete](http://localhost:8000/api/v1/books/:id)
-    
+[Create](http://localhost:8000/api/v1/books/)
+
+[Read](http://localhost:8000/api/v1/books/)
+
+[Read with filter](http://localhost:8000/api/v1/books?name=Book1)
+
+[Retrieve](http://localhost:8000/api/v1/books/:id)
+
+[Patch](http://localhost:8000/api/v1/books/:id)
+
+[Delete](http://localhost:8000/api/v1/books/:id)
+
